@@ -1,0 +1,75 @@
+/*Semaforo*/
+
+.container {
+    width: 200px;
+    height: 600px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 15px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(182, 49, 49);
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.orange{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(218, 160, 54);
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.green{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(44, 122, 44);
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+/*Luces encendidas*/
+.on-red{
+    box-shadow: 0 0 50px red;
+}
+.on-orange{
+    box-shadow: 0 0 50px orange;
+}
+.on-green{
+    box-shadow: 0 0 50px green;
+}
+
+/*boton*/
+.button-div {
+
+    text-align: center;
+ 
+}
+
+button{
+    text-transform: uppercase;
+    font-size: px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 5px solid green;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: green;
+    color: white
+}
+/*Circulo selector*/
+
+.circle {
+    border: 5px solid rgb(41, 128, 241);
+
+}
